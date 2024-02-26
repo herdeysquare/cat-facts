@@ -1,0 +1,110 @@
+main {
+  height: 90vh;
+  width: 60vw;
+}
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 5vh;
+}
+main,
+div {
+  background-image: url("cats.jpeg");
+  background-repeat: no-repeat;
+
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+
+#btn{
+ 
+  padding:30px;
+  background-color: #cc8181;
+  text-shadow:cyan;
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 2vh;
+  border-style: hidden;
+}
+button:hover{
+  color:blue
+}
+input{ width:45vw;
+  padding-block:5vh;
+ background-color:transparent;
+ border-style: none;
+ color: blue;
+ font-size: 1.2em;
+text-align: left;
+margin-top: 10vh;
+
+}
+p{
+  text-align:left;
+  font-size: 1.2em;
+}
+/* .marquee-Container {
+  width: auto;
+  overflow: hidden;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-Container input {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+} */
+
+/* @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  } */
+
+/* mobile */
+@media (width<=600px) {
+  main {
+    height: 90vh;
+    width: 90vw;
+  }
+  main,
+  div {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Lhywzv50XyuOAUczkGod_YnSWJ9n1TuwnVuqdt14FQ&s);
+
+    background-size: cover;
+    background-position: cover;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  p{
+    color:white
+  }
+  
+  #display{
+    width:70vw;
+    padding-block:3vh;
+   background-color:transparent;
+   border-style: none;
+   color: red;
+   font-size: 1.5em;
+  text-align: left;
+  margin-top: 10vh;
+  }
+  p{
+    font-size:1.3em;
+  }
+  input{
+    margin-top: 2vh;
+  }
+}
+
